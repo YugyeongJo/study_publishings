@@ -1,0 +1,10 @@
+.nav{
+    list-style-type: none;
+    background-color: yellowgreen;
+    text-align: center;
+    
+}
+.nav li {
+    display: inline-block;
+    padding: 20px;
+}
