@@ -1,0 +1,18 @@
+.nav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+
+.nav-item>a {
+    background-color: skyblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: hotpink;
+}
