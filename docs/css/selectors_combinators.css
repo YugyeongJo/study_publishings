@@ -1,0 +1,21 @@
+
+/* 하위 자손 모두 */
+/* div p {
+  background-color: yellow;
+} */
+
+/* 하위 자식 모두 */
+/* div > p {
+    background-color: brown;
+  } */
+
+  /* 자기가 속해있는 형제자매 중 다음에 나오는  첫번째를 찾음
+     div와 같은 sibling에 있는 첫번째 p를 찾음 */
+  div + p {
+    background-color: blueviolet;
+  }
+
+  /* 자기가 속해있는 같은 sibling에 있는 모든 형제자매를 찾음 */
+  div ~ p {
+    background-color: chocolate;
+  }
