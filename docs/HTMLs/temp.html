@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+.tab_header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  padding:0;
+}
+
+.tab_header ul li {
+  list-style:none;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  font-size:18px;
+  font-weight: 400;
+  color: #666666;
+  padding: 22px 0;
+  text-align: center;
+  width: 25%;
+  border:1px solid #e5e5e5;
+  border-right:0;
+  border-left:1px solid #e5e5e5;
+  transition: background 0.5s ease, color 0.5s ease;
+  z-index: 3;
+}
+
+.tab_header ul li:last-child {
+  border-right: 1px solid #e5e5e5;
+}
+
+.tab_header ul li.on {
+  overflow: hidden;
+  font-size:18px;
+  font-weight: 400;
+  color: #fff;
+  background: #ec5707;
+  -webkit-box-shadow: 0px 13px 26px 8px rgba(255,166,118,0.63);
+  -moz-box-shadow: 0px 13px 26px 8px rgba(255,166,118,0.63);
+  box-shadow: 0px 13px 26px 8px rgba(255,166,118,0.63);
+  z-index: 2;
+}
+
+.tab_body {
+  margin-top: 126px;
+}
+
+.tab_body ul {
+
+}
+
+.tab_body ul li {
+  display: none;
+}
+
+.tab_body ul li.on {
+  display: block;
+}
+
+.js_select_wrap {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.js_select_wrap .js_select_v2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    color: #fff;
+    font-size: 26px;
+    z-index: -4;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    left: 0;
+    right: 0;
+    background-color: #ec5707;
+    background-position: 95% center;
+    background-size: 17px;
+    background-image: url(../images/sub/arr01.png);
+    background-repeat: no-repeat;
+}
+
+.js_select {
+    width: 100%;
+    height: 57px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #ec5707;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    box-sizing: border-box;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    text-align-last: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    opacity: 0;
+}
+
+.js_select option {
+    text-align: center;
+    background: #fff;
+    color: #000;
+}
+
+
+@media (max-width: 640px) {
+    .tab_header ul {
+        display: none;
+    }
+    .js_select_wrap {
+        display: block;
+    }
+}
+
+
+</style>
+
+<body>
+
+    <div class="tab_header">
+        <ul>
+            <li class="on">재개발/재건축</li>
+            <li>공적평가</li>
+            <li>일반거래</li>
+            <li>담보</li>
+        </ul>
+        <div class="js_select_wrap">
+            <label class="js_select_v2">재개발/재건축</label>
+            <select class="js_select">
+                <option value="재개발/재건축">재개발/재건축</option>
+                <option value="공적평가">공적평가</option>
+                <option value="일반거래">일반거래</option>
+                <option value="담보">담보</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="tab_body">
+        <ul>
+            <!-- 1번탭 -->
+            <li class="on">
+                1
+            </li>
+            <!-- 1번탭 -->
+            <!-- 2번탭 -->
+            <li>
+                2
+            </li>
+            <!-- 2번탭 -->
+            <!-- 3번탭 -->
+            <li>
+                3
+            </li>
+            <!-- 3번탭 -->
+            <!-- 4번탭 -->
+            <li>
+                4
+            </li>
+            <!-- 4번탭 -->
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            tab_menu();
+        });
+
+        //탭 메뉴 기본
+        const tab_menu = function () {
+            $('.tab_header > ul > li').click(function () {
+                var cnt = $(this).index();
+                $('.tab_header > ul > li').removeClass('on');
+                $(this).addClass('on');
+                $('.tab_body ul li').removeClass('on');
+                $('.tab_body ul li').eq(cnt).addClass('on');
+            });
+        }    
+    </script>
+</body>
+
+</html>
