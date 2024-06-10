@@ -49,8 +49,8 @@
 |5|Box model|[borders.html](./docs/CSSs/borders.html)|tag에 색상 적용 학습(border)|border|
 |6|Box model|[boxmodels.html](./docs/CSSs/boxmodels.html)|tag에 style 적용 학습(boxmodel)|boxmodel|
 |7|Font|[fonts.html](./docs/CSSs/fonts.html)|tag에 font style 적용 학습(font)|font|
-|8|Selector|[selectors_combinators.html](./docs/CSSs/selectors_combinators.html)|combinator를 활용한 style 적용 학습|combinator|
-|||[selectors_combinators.css](./docs/css/selectors_combinators.css)|||
+|8|Selector|[selectors_combinators.html](./docs/CSSs/selectors_combinators.html)<br>[selectors_combinators.css](./docs/css/selectors_combinators.css)|combinator를 활용한 style 적용 학습|combinator|
+||||||
 |9|Selector|[selector_pseudoclass.html](./docs/CSSs/selector_pseudoclass.html)|tag에 특수상태 적용 학습(pseudo class)|pseudo class|
 |||[selector_pseudoclass.css](./docs/css/selector_pseudoclass.css)|||
 |10|Display|[displays.html](./docs/CSSs/displays.html)|tag에 style 적용 학습(display)|display|
