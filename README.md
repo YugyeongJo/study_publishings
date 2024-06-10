@@ -9,19 +9,14 @@
 
 ## 💻 File
 
-<!-- Total -->
-<details>
-<summary>Total</summary>
+### BASIC
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
 |1|Practice|[temp.html](./docs/temp.html)|하위경로 이동 연습||
 |2|ALL|[main.html](./docs/main.html)|Web 학습노트||
-</details>
 
-<!-- HTML5 -->
-<details>
-<summary>HTML5</summary>
+### HTML
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -34,11 +29,8 @@
 |7|Form and Input|[forms_inputs.html](./docs/HTMLs/forms_inputs.html)|input tag 학습|form_input|
 |8|Form and Input|[form_input_types.html](./docs/HTMLs/form_input_types.html)|input tag 종류 학습|form_input_type|
 |9|Form and Select|[form_selects.html](./docs/HTMLs/form_selects.html)|select tag 학습|select|
-</details>
 
-<!-- CSS -->
-<details>
-<summary>CSS</summary>
+### CSS
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -56,11 +48,8 @@
 |12|Grid|[grids.html](./docs/CSSs/grids.html)<br>[grids.css](./docs/css/grids.css)|grid 적용 학습|grid|
 |13|Grid|[grid_menu.html](./docs/CSSs/grid_menu.html)<br>[grid_menu.css](./docs/css/grid_menu.css)|grid 적용 학습(menu)|grid|
 |14|Font icon|[font_icons.html](./docs/CSSs/font_icons.html)|font_icon 삽입 학습|font_icon|
-</details>
 
-<!-- BOOTSTRAP -->
-<details>
-<summary>BOOTSTRAP</summary>
+### BOOTSTRAP
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -76,7 +65,6 @@
 |10|Dropdown|[dropdowns.html](./docs/bootstraps/dropdowns.html)|드랍다운 메뉴 적용 학습|Dropdown|
 |11|Pagination|[paginations.html](./docs/bootstraps/paginations.html)|페이지네이션 적용 학습|Pagination|
 |12|Parameter|[parameters_query.html](./docs/bootstraps/parameters_query.html)|get, post로 파라미터 전달 학습|Get, Post|
-</details>
 
 ## 📈 Quest
 
