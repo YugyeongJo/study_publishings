@@ -14,6 +14,7 @@
 <summary>Total</summary>
 
 |번호|구분|파일|설명|비고|
+|--|--|--|--|--|
 |1|Practice|[temp.html](./docs/temp.html)|하위경로 이동 연습||
 |2|ALL|[main.html](./docs/main.html)|Web 학습노트||
 </details>
@@ -23,6 +24,7 @@
 <summary>HTML5</summary>
 
 |번호|구분|파일|설명|비고|
+|--|--|--|--|--|
 |1|Basic|[temp.html](./docs/HTMLs/temp.html)|HTML 기초|h1|
 |2|Basic|[welcome.html](./docs/HTMLs/welcome.html)|div tag 학습|div|
 |3|Table|[tables.html](./docs/HTMLs/tables.html)|table tag 학습|table|
@@ -39,6 +41,7 @@
 <summary>CSS</summary>
 
 |번호|구분|파일|설명|비고|
+|--|--|--|--|--|
 |1|Selector type|[welcome.html](./docs/CSSs/welcome.html)|CSS 기초|style|
 |2|CSS Font|[texts.html](./docs/CSSs/texts.html)|text tag에 style 적용 학습|text|
 |3|Selector type|[selectors_tag.html](./docs/CSSs/selectors_tag.html)|selector tag 학습|main, h1, div|
@@ -67,6 +70,7 @@
 <summary>BOOTSTRAP</summary>
 
 |번호|구분|파일|설명|비고|
+|--|--|--|--|--|
 |1|Basic|[standard.html](./docs/bootstraps/standard.html)|BOOTSTRAP 기초|class="'|
 |2|Container|[containers.html](./docs/bootstraps/containers.html)|container class 학습|class="container"|
 |3|Color|[colors.html](./docs/bootstraps/colors.html)|color class 학습|class="color"|
@@ -86,6 +90,7 @@
 ## 📈 Quest
 
 |번호|구분|파일|설명|비고|
+|--|--|--|--|--|
 |1|HTML|[resume.html](./docs/quests/HTMLs/resume.html)|이력서 제작 실습(HTML)||
 |2|HTML|[main.html](./docs/quests/HTMLs/main.html)|Web 학습노트||
 |3|HTML|[images.html](./docs/quests/HTMLs/images.html)|이미지 삽입 실습||
