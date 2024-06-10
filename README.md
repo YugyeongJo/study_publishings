@@ -50,18 +50,11 @@
 |6|Box model|[boxmodels.html](./docs/CSSs/boxmodels.html)|tag에 style 적용 학습(boxmodel)|boxmodel|
 |7|Font|[fonts.html](./docs/CSSs/fonts.html)|tag에 font style 적용 학습(font)|font|
 |8|Selector|[selectors_combinators.html](./docs/CSSs/selectors_combinators.html)<br>[selectors_combinators.css](./docs/css/selectors_combinators.css)|combinator를 활용한 style 적용 학습|combinator|
-||||||
-|9|Selector|[selector_pseudoclass.html](./docs/CSSs/selector_pseudoclass.html)|tag에 특수상태 적용 학습(pseudo class)|pseudo class|
-|||[selector_pseudoclass.css](./docs/css/selector_pseudoclass.css)|||
-|10|Display|[displays.html](./docs/CSSs/displays.html)|tag에 style 적용 학습(display)|display|
-|||[commons.css](./docs/css/commons.css)|||
-|||[displays.css](./docs/css/displays.css)|||
-|11|Display|[displays_inlineblock.html](./docs/CSSs/displays_inlineblock.html)|tag에 style 적용 학습(display_inlineblock)|display_inlineblock|
-|||[displays_inlineblock.css](./docs/css/displays_inlineblock.css)|||
-|12|Grid|[grids.html](./docs/CSSs/grids.html)|grid 적용 학습|grid|
-|||[grids.css](./docs/css/grids.css)|||
-|13|Grid|[grid_menu.html](./docs/CSSs/grid_menu.html)|grid 적용 학습(menu)|grid|
-|||[grid_menu.css](./docs/css/grid_menu.css)|||
+|9|Selector|[selector_pseudoclass.html](./docs/CSSs/selector_pseudoclass.html)<br>[selector_pseudoclass.css](./docs/css/selector_pseudoclass.css)|tag에 특수상태 적용 학습(pseudo class)|pseudo class|
+|10|Display|[displays.html](./docs/CSSs/displays.html)<br>[commons.css](./docs/css/commons.css)<br>[displays.css](./docs/css/displays.css)|tag에 style 적용 학습(display)|display|
+|11|Display|[displays_inlineblock.html](./docs/CSSs/displays_inlineblock.html)<br>[displays_inlineblock.css](./docs/css/displays_inlineblock.css)|tag에 style 적용 학습(display_inlineblock)|display_inlineblock|
+|12|Grid|[grids.html](./docs/CSSs/grids.html)<br>[grids.css](./docs/css/grids.css)|grid 적용 학습|grid|
+|13|Grid|[grid_menu.html](./docs/CSSs/grid_menu.html)<br>[grid_menu.css](./docs/css/grid_menu.css)|grid 적용 학습(menu)|grid|
 |14|Font icon|[font_icons.html](./docs/CSSs/font_icons.html)|font_icon 삽입 학습|font_icon|
 </details>
 
@@ -73,11 +66,9 @@
 |--|--|--|--|--|
 |1|Basic|[standard.html](./docs/bootstraps/standard.html)|BOOTSTRAP 기초|class="'|
 |2|Container|[containers.html](./docs/bootstraps/containers.html)|container class 학습|class="container"|
-|3|Color|[colors.html](./docs/bootstraps/colors.html)|color class 학습|class="color"|
-|||[colors.css](./docs/css/colors.css)|||
+|3|Color|[colors.html](./docs/bootstraps/colors.html)<br>[colors.css](./docs/css/colors.css)|color class 학습|class="color"|
 |4|Grid|[grids.html](./docs/bootstraps/grids.html)|grid class 학습|class="row col"|
-|5|Card|[cards.html](./docs/bootstraps/cards.html)|card class 학습|class="card"|
-|||[cards.css](./docs/css/cards.css)|||
+|5|Card|[cards.html](./docs/bootstraps/cards.html)<br>[cards.css](./docs/css/cards.css)|card class 학습|class="card"|
 |6|Button|[buttons.html](./docs/bootstraps/buttons.html)|button tag에 class style 적용 학습|button|
 |7|Table|[tables.html](./docs/bootstraps/tables.html)|table tag에 class style 적용 학습|table|
 |8|Form|[forms.html](./docs/bootstraps/forms.html)|form tag에 class style 적용 학습|form|
@@ -99,6 +90,5 @@
 |6|HTML|[form_imputs_resume.html](./docs/quests/HTMLs/form_imputs_resume.html)|개발자 지원서 작성 실습||
 |7|CSS|[text_colors.html](./docs/quests/CSSs/text_colors.html)|컬러박스 색상 적용 실습||
 |8|CSS|[borders.html](./docs/quests/CSSs/borders.html)|border-style 적용 실습||
-|9|CSS|[resume.html](./docs/quests/CSSs/resume.html)|이력서 제작 실습(CSS)||
-|||[resumes.css](./docs/quests/css/resumes.css)|||
+|9|CSS|[resume.html](./docs/quests/CSSs/resume.html)<br>[resumes.css](./docs/quests/css/resumes.css)|이력서 제작 실습(CSS)||
 |10|BOOTSTRAP|[grids.html](./docs/bootstraps/grids.html)|bootstrap grid 적용 실습||
