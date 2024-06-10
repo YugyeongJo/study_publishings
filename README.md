@@ -9,14 +9,14 @@
 
 ## 💻 File
 
-### BASIC
+### - BASIC
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
 |1|Practice|[temp.html](./docs/temp.html)|하위경로 이동 연습||
 |2|ALL|[main.html](./docs/main.html)|Web 학습노트||
 
-### HTML
+### - HTML
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -30,7 +30,7 @@
 |8|Form and Input|[form_input_types.html](./docs/HTMLs/form_input_types.html)|input tag 종류 학습|form_input_type|
 |9|Form and Select|[form_selects.html](./docs/HTMLs/form_selects.html)|select tag 학습|select|
 
-### CSS
+### - CSS
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -49,7 +49,7 @@
 |13|Grid|[grid_menu.html](./docs/CSSs/grid_menu.html)<br>[grid_menu.css](./docs/css/grid_menu.css)|grid 적용 학습(menu)|grid|
 |14|Font icon|[font_icons.html](./docs/CSSs/font_icons.html)|font_icon 삽입 학습|font_icon|
 
-### BOOTSTRAP
+### - BOOTSTRAP
 
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
@@ -81,7 +81,7 @@
 |9|CSS|[resume.html](./docs/quests/CSSs/resume.html)<br>[resumes.css](./docs/quests/css/resumes.css)|이력서 제작 실습(CSS)||
 |10|BOOTSTRAP|[grids.html](./docs/bootstraps/grids.html)|bootstrap grid 적용 실습||
 
-## 참고자료
+## 📝참고자료
 
 - [W3school HTML](https://www.w3schools.com/html/default.asp)
 - [W3school CSS](https://www.w3schools.com/css/default.asp)
